@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th colspan = "2"><h2>Registration</h2></th>
+        </tr>
+        <tr>
+          <td>Enter Name</td>
+          <td><input type="textbox"></td>
+        </tr>
+        <tr>
+          <td>Enter Password</td>
+          <td><input type="password"></td>
+        </tr>
+        <tr>
+          <td>Enter Address</td>
+          <td><textarea></textarea></td>
+        </tr>
+        <tr>
+          <td>Select Game</td>
+          <td>
+            <input type="checkbox" name="Hockey" />
+            <p>Hockey</p>
+            <br/>
+            <input type="checkbox" name="Football" />
+            <p>Football</p>
+            <br/>
+            <input type="checkbox" name="Badminton" />
+            <p>Badminton</p>
+            <br/>
+            <input type="checkbox" name="Cricket" />
+            <p>Cricket</p>
+            <br/>
+            <input type="checkbox" name="Volleyball" />
+            <p>Volleyball</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" />
+            <p>Male</p>
+            <br /><input type="radio" name="gender" />
+            <p>Female</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Select ur age</td>
+          <td><input type="number" min="0" max="150" /></td>
+        </tr>
+        <tr>
+          <td>Select Photo</td>
+          <td><input type="file" accept="image/*" placeholder = "Select" /></td>
+        </tr>
+        <tr>
+          <td class="btmrow" colspan ="2"><button class="btmbuttons">Click Me</button><input type="reset" class="btmbuttons" /><input type="submit" class="btmbuttons"/></td>
+        </tr> 
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+th h2 {
+
+  color: red
+
+}
+
+th {
+  color: black;
+  background-color: yellow
+}
+
+head {
+  background-color: yellow
+}
+
+table {
+  border: 1px outset gray;
+}
+
+td {
+  border: 1px inset gray;
+  background-color: #009dff;
+}
+td p {
+  display: inline;
+}
+
+textarea {
+  height: 50px;
+}
+
+.btmbuttons {
+  padding: 15px 30px;
+  position: relative;
+}
+
+.btmrow {
+  text-align: center;
+}
