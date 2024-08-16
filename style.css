@@ -6,11 +6,11 @@ th h2 {
 
 th {
   color: black;
-  background-color: yellow
+  background-color: rgb(251, 251, 144)
 }
 
 head {
-  background-color: yellow
+  background-color: rgb(233, 233, 97)
 }
 
 table {
@@ -19,7 +19,7 @@ table {
 
 td {
   border: 1px inset gray;
-  background-color: #009dff;
+  background-color: #46abea;
 }
 td p {
   display: inline;
@@ -36,4 +36,20 @@ textarea {
 
 .btmrow {
   text-align: center;
+}
+
+.table {
+  width: 150%;
+  height: 150%;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.age {
+  width: 70px;
+
 }
